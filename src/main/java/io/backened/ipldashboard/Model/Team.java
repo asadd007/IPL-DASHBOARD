@@ -18,7 +18,9 @@ public class Team {
 
     @Transient
     private List<Match> matches;
-    
+    public Team() {
+        
+    }
     public long getId() {
         return id;
     }
