@@ -11,5 +11,8 @@ public class IplDashboardApplication {
 	public static void main(String[] args) throws Exception {
 		SpringApplication.run(IplDashboardApplication.class, args);
 		System.out.println("asad khan");
+		if(10/0==0){
+			System.out.println("aman khan");
+		}
 	}
 }
